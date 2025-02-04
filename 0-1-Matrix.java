@@ -6,7 +6,7 @@ The distance between two cells sharing a common edge is 1.
 Input: mat = [[0,0,0],[0,1,0],[0,0,0]]
 Output: [[0,0,0],[0,1,0],[0,0,0]]
 
-//Approach :
+//Approach 
 Here we will go with BFS traversal in which we will keep 0's at level 0 and add them in a queue 
 Now why 0's in a queue - because those are independent nodes and 1 are dependent. Also we will mark all 1's as -1 so that instead of 
 maintaining a new array for keeping track we can just keep track by changinhg visited node's value to +ve value
